@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.sidebar{
+    background-color:rgb(207, 207, 207);
+    font-family: 'Fira Sans',sans-serif;
+    height: 100vh;
+    transition:transform 0.3s ease-in;
+
+}
+.main{
+    background-color: white;
+    width: 90vw;
+}
+
+.sidebar nav{
+    padding: 70px;
+    padding-left: 30px;
+    padding-top: 29px;
+   
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 6px;
+    font-weight: bolder;
+
+}
+
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /*background-color: blueviolet;*/
+    margin: 144px auto;
+    height: 58vh;
+    width:80vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 90px;
+
+    
+    
+}
+.img img{
+    height:58vh;
+}
+.devinfo{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.devinfo div button{
+    margin-right: 40px;
+}
+.hi{
+    font-size: 65px;
+
+}
+.name{
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+.cls{
+    font-size: 40px;
+
+
+}
+.moreabout{
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 15px;
+
+}
+.downcv button{
+    margin-top: 35px;
+}
+
+/*.buttons{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color:white;
+    background-color: rgb(68, 140, 255);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.buttons:hover{
+   color: rgb(68, 140, 255);
+   background-color: white
+
+}*/
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+}
+.downcv a{
+    text-decoration: none;
+}
+
+
+
+
+/*CONTACT*/
+
+.contactform{
+    padding-top: 60px;
+    padding-left: 90px;
+    font-family:'Fira Sans',sans-serif;
+
+}
+.contactform h1{
+    font-family:'Source Code Pro', monospace;
+    padding-bottom: 40px;
+    
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+#formcheck{
+    flex-direction:row;
+
+}
+#formcheck input{
+    width: 13px;
+    padding-bottom: 120px;
+}
+#formcheck label{
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.intigrity{
+    font-size:10px;
+    margin-top: -10px;
+    padding-left: 2px;
+}
+/*BLOG */
+
+.blogitem{
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.blogitem h1{
+    font-family:'Source Code Pro', monospace;
+    font-size: 40px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+.blogitem p{
+    font-family:'Fira Sans',sans-serif;
+    font-size: 25px;
+    padding-top: 8px;
+}
+.blogitem button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+/*INTRO*/
+.aboutme{
+    font-family:'Fira Sans',sans-serif;
+    font-size: 25px;
+    padding-left: 70px;
+    padding-top: 16px;
+}
+.aboutme h1{
+    font-family:'Source Code Pro', monospace;
+    font-size: 40px;
+
+}
+.skill{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-family: 'Fira Sans',sans-serif;
+    padding-left: 50px;
+
+}
+.skillcontainer{
+   padding-left: 20px; 
+   padding-top: 20px;
+   font-family:'Fira Sans',sans-serif; 
+   color: #000;
+   padding-left: 70px;
+   
+}
+.skillcontainer progress{
+    margin-bottom:20px;
+    margin-top: 20px;
+    width: 60%;
+    height: 30px; 
+    padding-left: 70px;
+}
+.skillcontainer p{
+    margin-bottom: -22px;
+}
+.social h1{
+    font-family:'Source Code Pro', monospace;
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-left: 60px;
+}
+.social{
+    padding-left: 20px; 
+    padding-top: 30px;
+    font-family:'Fira Sans',sans-serif; 
+}
+.social p{
+    padding-bottom: 20px;
+    font-size: 140%;
+    padding-left: 60px;
+    
+}
+#buttons {
+    font-family:'Source Code Pro', monospace;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #212121;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action:manipulation;
+  }
+  
+  #buttons:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    #buttons {
+      padding: 0.25em 0.75em;
+    }
+  }
+
+  /*service*/
+
+  .servicecontainer{
+    font-family:'Source Code Pro', monospace;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding-left: 80px;
+  }
+
+  /*@media (max-width: 1615px){
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }*/
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top:10px;
+    left: 10px;
+    size:200px;
+
+}
+.cross{
+    margin-left: 184px;
+    margin-top: 10px;
+}
+
+.sidebarGo{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+
+ 
